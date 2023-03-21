@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgb(217, 213, 248);
+    padding: 50px 40px;
+    color: rgb(36, 36, 36);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #3746ed, #83aff0);
+}
+
+input {
+    margin-top: 4%;
+    width: 100%;
+    height: 10%;
+    padding: 2px;
+    margin-right: 10px;
+    border: none;
+    font-size: 10px;
+}
+
+h1 {
+    position: relative;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.done {
+    border: 0px solid black;
+    background-color: rgb(164, 252, 164);
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    text-decoration: line-through;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+  }
+
+#add_button{
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    border:0px;
+    left: 30%;
+    width: 35%;
+    top:10px;
+    right: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(127, 222, 222);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    outline: 0px;
+    font-size:10px;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
+}
+
+#add_button:hover {
+background-color: rgb(225, 225, 249);
+color:black;
+    
+ }
+
+ #clear_button {
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    border:0px;
+    left: 30%;
+    width: 40%;
+    top:250px;
+    right: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(152, 223, 200);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    outline: 0px;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+
+  #clear_button:hover {
+    background-color: rgb(225, 225, 249);
+    color:black;
+
+  }
+  
+li.box {
+    display: flex;
+    border: 0px solid rgb(86, 85, 85);
+    background-color: rgba(248, 248, 248, 0.8);
+    border-radius: 5px;
+    width: 100%;
+    justify-content: left;
+    text-align: left;
+    
+}
+
+ul {
+    list-style: none;
+  }
+  
+li {
+    position: relative;
+    margin: 10px 0;
+    padding-left: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(7, 6, 4);
+    text-align: left;
+}
+
+li.done {
+    text-decoration: line-through;
+    color: gray;
+    
+}
+
+
+#MyUL{
+    
+overflow-y: auto; /* vertical scrollbar */
+height: 180px;
+overflow-x: auto;
+width:200px;
+
+}
+
+/*responsividade*/
+
+/*iphone xr*/
+
+@media (min-width: 820px) and (max-width: 1368px) {
+
+    input {
+
+        height: 5%;
+        margin: 0px;
+    }
+
+}
+
+.img {
+
+        position: relative;
+          display: flex;
+          justify-content: right;
+          height: 250px;
+          width: 4px;
+          right: -2%;
+          top:30%;
+}
+
+
+

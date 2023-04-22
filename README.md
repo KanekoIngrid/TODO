@@ -39,3 +39,4 @@
 <p>Como atribuições futuras, pretendo adicionar um array no projeto, com um campo novo de 'tarefas já realizadas', mostrando o horário e data de quando a tarefa foi concluída pelo usuário. Também gostaria de implementar uma data prazo que será estimada pelo usuário para a realização das tarefas. Assim, o projeto viraria um 'to do list' mais geral, com planos semanais, mensais ou anuais, e não somente terá uma função simples de tarefas do dia à dia. </p>
 </details>
 
+visite o site https://kanekoingrid.github.io/TODO/
